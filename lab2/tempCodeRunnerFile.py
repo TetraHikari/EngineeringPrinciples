@@ -1,0 +1,2 @@
+
+        label = QLabel(text, dialog)
