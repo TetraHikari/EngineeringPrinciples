@@ -1,0 +1,1 @@
+def findSum(B, k):

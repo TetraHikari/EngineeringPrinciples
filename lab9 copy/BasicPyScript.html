@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://pyscript.net/releases/2024.1.1/core.css" />
+    <script type="module" src="http://pyscript.net/releases/2024.1.1/core.js"></script>
+</head>
+<body>
+    <section class="pyscript">
+        <div id="output" class="font-mono"></div>
+        <script type="py">
+            from pyscript import display
+            display("Hello World!\n", target="output")
+            display("This is the current date and time, as computed by Python:\n", target="output")
+            from datetime import datetime
+            now = datetime.now()
+            display(now.strftime("%Y-%m-%d %H:%M:%S"), target="output")
+        </script>
+    </section>
+    
+</body>
+</html>
